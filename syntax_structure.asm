@@ -1,5 +1,5 @@
-.MODEL SMALL
-.STACK 200H
+.MODEL SMALL  ; Model Size
+.STACK 200H   ; Memory Allocation
 
 .DATA 
     ; Where all the veriable will be declared.
