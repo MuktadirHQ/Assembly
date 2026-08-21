@@ -18,7 +18,7 @@ LEA SI, NUM_ARRAY           ; place B array's first index which is 0, set to SI.
 
 MOV BX, 1
 MOV SI, 1
-MOV AL, NUM_ARRAY[BX+SI]                ; AL = NUM_ARRAY[0] = 1
+MOV AL, NUM_ARRAY[BX][SI]   ; [BX][SI] === [BX+SI] 
 ADD AL, 48                  ; ASCII
 
 MOV DL, AL                  ; DL stores what to print
