@@ -24,7 +24,7 @@ ENDM
 
 
 
-printChar my_char    ; Calling MACRO. ---> in line command. 
+printChar my_char, 003FH    ; Calling MACRO. ---> in line command. Automatically avoids EXTRA Argument. 
 
 
 
