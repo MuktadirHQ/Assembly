@@ -19,14 +19,14 @@ LEA SI, NUM_ARRAY           ; place B array's first index which is 0, set to SI.
 MOV BX, 1
 MOV SI, 1
 MOV AL, NUM_ARRAY[BX][SI]   ; [BX][SI] === [BX+SI] 
-ADD AL, 48                  ; ASCII
+ADD AL, 30H                 ; ASCII
 
 MOV DL, AL                  ; DL stores what to print
 MOV AH, 2
 INT 21H
 
 
-; OUTPUT ==---== 4 
+; OUTPUT ==---== 3
  
 
 ;exit to DOS     
