@@ -37,7 +37,13 @@ printCharProc PROC NEAR  ; Default NEAR
     MOV AH, 2
     INT 21H
     RET
-printCharProc ENDP
+printCharProc ENDP 
+
+
+
+END MAIN
+
+
 
 
 
